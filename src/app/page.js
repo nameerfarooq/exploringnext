@@ -1,3 +1,4 @@
+import LearnDataFetching from "@/components/LearnDataFetching";
 import LearnModuleCss from "@/components/LearnModuleCss";
 import LearnUseRouter from "@/components/LearnUseRouter";
 import Image from "next/image";
@@ -8,7 +9,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* <Link href={"/admin/dashboard"}>Go to Admin Dashboard</Link>
       <LearnUseRouter /> */}
-      <LearnModuleCss />
+      {/* <LearnModuleCss /> */}
+      <LearnDataFetching />
     </main>
   );
 }
