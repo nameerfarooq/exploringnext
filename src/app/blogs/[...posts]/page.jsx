@@ -1,5 +1,8 @@
 const page = ({ params }) => {
-  return <div>this page params are {params.posts}</div>;
+  console.log(params)
+  return (
+    <div className="text-center m-20">this page params are {params.posts}</div>
+  );
 };
 
 export default page;
