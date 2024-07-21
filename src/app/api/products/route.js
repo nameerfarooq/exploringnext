@@ -9,5 +9,5 @@ export async function GET(req) {
 export async function POST(req) {
   const res = await req.json();
   console.log(res);
-  return NextResponse.json({ msg: "Product added" });
+  return NextResponse.json({ msg: "Product added" },{status:201});
 }
